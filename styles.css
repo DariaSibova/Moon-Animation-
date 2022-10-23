@@ -19,3 +19,22 @@
     top: 50%;
     left: 50%;
   }
+
+  .container{
+    height: 31 .25em;
+    width: 100%;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  a{
+    display: block;
+    background-color: #ffffff;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 1em 0;
+    color: #21233c;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 0 .3em;
+  }
