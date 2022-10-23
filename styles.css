@@ -86,3 +86,15 @@
   box-shadow: 0.9em -2.1em 0 0.2em #e6e6e6, 1.5em -0.3em 0 -0.06em #e6e6e6;
   
   }
+
+  .orbit{
+    height: 18.75em;
+    width: 18.75em;
+    border-radius: 50%;
+    position: absolute;
+    left: -5em;
+    bottom: -5em;
+    -webkit-animation: spin 8s infinite linear;
+    animation: spin 8s infinite linear;
+  
+  }
