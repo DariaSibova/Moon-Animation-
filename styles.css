@@ -71,3 +71,18 @@
     top: 0;
     bottom: 0;
   }
+
+  .moon::after{
+    position: absolute;
+    content: "";
+    background-color: #e6e6e6;
+    height: 0.9em;
+    width: 0.9em;
+    top: 3.75em;
+    left: 1.25em;
+    border-radius: 50%;
+    -webkit-box-shadow: 0.9em -2.1em 0 0.2em #e6e6e6,
+    1.5em -0.3em 0 -0.06em #e6e6e6;
+  box-shadow: 0.9em -2.1em 0 0.2em #e6e6e6, 1.5em -0.3em 0 -0.06em #e6e6e6;
+  
+  }
