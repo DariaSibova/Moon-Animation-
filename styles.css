@@ -11,7 +11,7 @@
   }
   
   .wrapper{
-    width: 31 .25em;
+    width: 31.25em;
     position: absolute;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%,-50%);
@@ -21,7 +21,7 @@
   }
 
   .container{
-    height: 31 .25em;
+    height: 31.25em;
     width: 100%;
     color: #ffffff;
     position: relative;
@@ -36,5 +36,15 @@
     color: #21233c;
     font-weight: 600;
     text-decoration: none;
-    border-radius: 0 .3em;
+    border-radius: 0.3em;
+  }
+
+  p.letter{
+    font-size: 3.5em;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    font-weight: 500;
   }
