@@ -114,3 +114,23 @@
   
     }
   }
+
+  .orbit p{
+    position: absolute;
+    font-size: 3.5em;
+    top: 0.25em;
+    left: 0.25em;
+  }
+  
+  fab{
+    color: #ff0000;
+  
+  }
+  
+  @media screen and (max-width: 500px) {
+    .wrapper {
+      font-size: 10px;
+    }
+  }
+  
+  
